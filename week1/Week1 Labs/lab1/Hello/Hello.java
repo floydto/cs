@@ -1,11 +1,14 @@
 /**
  *
- * Class Hello
- *  Hello world program
+ * Class Hello Hello world program
  */
 class Hello {
         public static void main(String[] args) {
                 System.out.println("Hello, welcome to the University of York");
-                //put new code here
+                System.out.println("My Initials\r\n" + "------------------\r\n" + "*****       *******\r\n" + "\r\n"
+                                + "*                *\r\n" + "\r\n" + "*****          *    \r\n" + "\r\n"
+                                + "*                *\r\n" + "\r\n" + "*                *");
+                // put new code here
+
         }
 }
