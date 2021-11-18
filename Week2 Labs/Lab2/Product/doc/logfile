@@ -1,0 +1,55 @@
+Project documentation
+<---- javadoc command: ---->
+javadoc
+-sourcepath
+D:\MyWork\ISWD\Units\Unit8_Classes_and_Objects\Labs\Product
+-d
+D:\MyWork\ISWD\Units\Unit8_Classes_and_Objects\Labs\Product\doc
+-doctitle
+Product
+-windowtitle
+Product
+-link
+http://java.sun.com/j2se/1.3/docs/api/
+-author
+-version
+-nodeprecated
+-package
+-bottom
+<small><em>Generated&nbsp;by&nbsp;BlueJ</em></small>
+D:\MyWork\ISWD\Units\Unit8_Classes_and_Objects\Labs\Product/Product.java
+<---- end of javadoc command ---->
+Loading source file D:\MyWork\ISWD\Units\Unit8_Classes_and_Objects\Labs\Product/Product.java...
+Constructing Javadoc information...
+javadoc: Error fetching URL: http://java.sun.com/j2se/1.3/docs/api/package-list
+Standard Doclet version 1.4.0
+
+Generating D:\MyWork\ISWD\Units\Unit8_Classes_and_Objects\Labs\Product\doc\constant-values.html...
+Building tree for all the packages and classes...
+Building index for all the packages and classes...
+Generating D:\MyWork\ISWD\Units\Unit8_Classes_and_Objects\Labs\Product\doc\overview-tree.html...
+Generating D:\MyWork\ISWD\Units\Unit8_Classes_and_Objects\Labs\Product\doc\index-all.html...
+D:\MyWork\ISWD\Units\Unit8_Classes_and_Objects\Labs\Product/Product.java:43: warning - The first sentence is interpreted to be:
+"Gets the product description."
+This sentence is different from what will be interpreted as the first sentence in the
+next major release (when that interpretation will be internationalized), which is:
+"Gets the product description. - @return the description"
+To avoid this note, change the doc comment to make this a proper first sentence, then
+use -breakiterator from that point forward, which will output this new sentence.
+Building index for all classes...
+Generating D:\MyWork\ISWD\Units\Unit8_Classes_and_Objects\Labs\Product\doc\allclasses-frame.html...
+Generating D:\MyWork\ISWD\Units\Unit8_Classes_and_Objects\Labs\Product\doc\allclasses-noframe.html...
+Generating D:\MyWork\ISWD\Units\Unit8_Classes_and_Objects\Labs\Product\doc\index.html...
+Generating D:\MyWork\ISWD\Units\Unit8_Classes_and_Objects\Labs\Product\doc\packages.html...
+Generating D:\MyWork\ISWD\Units\Unit8_Classes_and_Objects\Labs\Product\doc\Product.html...
+D:\MyWork\ISWD\Units\Unit8_Classes_and_Objects\Labs\Product/Product.java:8: warning - @Simon is an unknown tag.
+D:\MyWork\ISWD\Units\Unit8_Classes_and_Objects\Labs\Product/Product.java:8: warning - @Nov is an unknown tag.
+D:\MyWork\ISWD\Units\Unit8_Classes_and_Objects\Labs\Product/Product.java:43: warning - The first sentence is interpreted to be:
+"Gets the product description."
+This sentence is different from what would be generated using -breakiterator: 
+"Gets the product description. - @return the description"
+Generating D:\MyWork\ISWD\Units\Unit8_Classes_and_Objects\Labs\Product\doc\package-list...
+Generating D:\MyWork\ISWD\Units\Unit8_Classes_and_Objects\Labs\Product\doc\help-doc.html...
+Generating D:\MyWork\ISWD\Units\Unit8_Classes_and_Objects\Labs\Product\doc\stylesheet.css...
+1 error
+4 warnings
