@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Week3 Labs/Lab1/Account/Account.iml" filepath="$PROJECT_DIR$/Week3 Labs/Lab1/Account/Account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab2/Amazing/Amazing.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab2/Amazing/Amazing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab2/Authenticate/Authenticate.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab2/Authenticate/Authenticate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab3/Awrap/Awrap.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab3/Awrap/Awrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab3/BankAccount1/BanAccount1.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab3/BankAccount1/BanAccount1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab1/BankAccount/BankAccount.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab1/BankAccount/BankAccount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab3/BankAccount2/BankAccount2.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab3/BankAccount2/BankAccount2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab2/BoolBag/BoolBag.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab2/BoolBag/BoolBag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab2/BrownPaperPackages/BrownPaperPackages.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab2/BrownPaperPackages/BrownPaperPackages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab2/Calculator1/Calculator1.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab2/Calculator1/Calculator1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab1/Car/Car.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab1/Car/Car.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab2/CinemaTicket/CinemaTicket.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab2/CinemaTicket/CinemaTicket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab4/CircleExample/CircleExample.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab4/CircleExample/CircleExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab4/Compound/Compound.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab4/Compound/Compound.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab3/Date/Date.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab3/Date/Date.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab3/DiceRoll/DiceRoll.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab3/DiceRoll/DiceRoll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week3 Labs/Lab2/Employee/Employee.iml" filepath="$PROJECT_DIR$/Week3 Labs/Lab2/Employee/Employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab2/EncapsulationTesting/EncapsulationTesting.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab2/EncapsulationTesting/EncapsulationTesting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab2/Exciting/Exciting.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab2/Exciting/Exciting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab3/Flower/Flower.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab3/Flower/Flower.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab3/GUI_IO/GUI_IO.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab3/GUI_IO/GUI_IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab4/Grader/Grader.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab4/Grader/Grader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab1/Hello/Hello.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab1/Hello/Hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab4/Hilo/Hilo.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab4/Hilo/Hilo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab4/Histogram/Histogram.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab4/Histogram/Histogram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week3 Labs/Lab2/JavaFX/JavaFX.iml" filepath="$PROJECT_DIR$/Week3 Labs/Lab2/JavaFX/JavaFX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab1/Klingon/Klingon.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab1/Klingon/Klingon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab2/LifeStyle/Lifestyle.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab2/LifeStyle/Lifestyle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab2/Lifestyle2/Lifestyle1.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab2/Lifestyle2/Lifestyle1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab3/LifeStyle2/Lifestyle2.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab3/LifeStyle2/Lifestyle2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab4/LiveALittle/LiveALittle.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab4/LiveALittle/LiveALittle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab2/Mathdemo/MathDemo.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab2/Mathdemo/MathDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab1/MathDemo1/MathDemo1.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab1/MathDemo1/MathDemo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab4/Menu/Menu.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab4/Menu/Menu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab4/Notebook/Notebook.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab4/Notebook/Notebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab2/Oblong/Oblong.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab2/Oblong/Oblong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab1/ParameterTest/ParameterTest.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab1/ParameterTest/ParameterTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab4/Pattern/Pattern.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab4/Pattern/Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab2/Purse/Purse.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab2/Purse/Purse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab1/Savings1/Savings1.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab1/Savings1/Savings1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab3/SelfStarter/SelfStarter.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab3/SelfStarter/SelfStarter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab4/SimpleMenuProgram/SimpleMenuProgram.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab4/SimpleMenuProgram/SimpleMenuProgram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab2/Starfleet/Starfleet.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab2/Starfleet/Starfleet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab2/Starfleet2/Starfleet2.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab2/Starfleet2/Starfleet2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab1/Starfleet3/Starfleet3.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab1/Starfleet3/Starfleet3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab2/String1/String1.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab2/String1/String1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab3/Student/Student.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab3/Student/Student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week3 Labs/Lab3/Student1/Student1.iml" filepath="$PROJECT_DIR$/Week3 Labs/Lab3/Student1/Student1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab1/Tax/Tax.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab1/Tax/Tax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab4/Temperature/Temperature.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab4/Temperature/Temperature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab2/TicketMachine/TicketMachine.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab2/TicketMachine/TicketMachine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab4/Twitchers/Twitchers.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab4/Twitchers/Twitchers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab4/forLoop/forLoop.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab4/forLoop/forLoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab1/lab1.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab1/lab1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week2 Labs/Lab1/picture/picture.iml" filepath="$PROJECT_DIR$/Week2 Labs/Lab1/picture/picture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab1/tank/tank.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab1/tank/tank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Week1 Labs/lab1/zork1/zork1.iml" filepath="$PROJECT_DIR$/Week1 Labs/lab1/zork1/zork1.iml" />
+    </modules>
+  </component>
+</project>
