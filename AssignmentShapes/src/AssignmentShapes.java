@@ -1,4 +1,5 @@
 
+import java.nio.file.FileSystems;
 import javafx.application.Application;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -20,6 +21,8 @@ public class AssignmentShapes extends Application {
 	    }
 	 
     @Override
+    
+    
     public void start(Stage stage) {
 
         // text field is created
@@ -29,7 +32,7 @@ public class AssignmentShapes extends Application {
         // add shape number label
         Label shapeLabel = new Label("Enter the number of sides of the shape");
         shapeLabel.setTextFill(Color.BLACK);
-        shapeLabel.setFont(Font.font("Arial", 24));
+        shapeLabel.setFont(Font.font("Arial", 16));
 
         // add a button to submit sides of shape
         Button shapeButton = new Button();
@@ -48,9 +51,14 @@ public class AssignmentShapes extends Application {
 
         //set condition for different shapes 
         shapeButton.setOnAction(e -> {
+        	int shapeFieldNumber = Integer.parseInt(shapeField.getText());
+            int shapeNumber = shapeFieldNumber;
+            
+            
         	// case if side = 4
             // draw rectangle
-        	if (shapeField.getText().equals("4")) {
+        	if (shapeNumber == 4) {
+        		int[] shapesNumber = {shapeFieldNumber};
         		Rectangle square = new Rectangle(100, 100);
         		square.setX(100.0f);
         		square.setY(100.0f);
@@ -63,40 +71,36 @@ public class AssignmentShapes extends Application {
                 root.getChildren().removeAll(shapeLabel, shapeField, shapeButton);
 
                 // tell the user to enter a colour
-                // add a label so user knows what is going on
                 Label colourLabel = new Label("increase or decrease the number of side(s)");
-                colourLabel.setTextFill(Color.BLUE);
-                colourLabel.setFont(Font.font("Arial", 24));
+                colourLabel.setTextFill(Color.BLACK);
+                colourLabel.setFont(Font.font("Arial", 16));
+                
+                //show current sides of shapes
+                Label currentSides = new Label("current sides : " + shapesNumber[0]);
+                currentSides.setFont(Font.font("Arial", 16));
+                currentSides.setAlignment(Pos.CENTER);
+                currentSides.setMaxWidth(200);
 
-                // create a text field for shape
-                TextField colourField = new TextField();
-                colourField.setMaxWidth(200);
+                //create a increment and decrement button
+                Button incrementButton = new Button("+");
+                Button decrementButton = new Button("-");
 
-                // add a button to submit shape
-                Button colourButton = new Button();
-                colourButton.setText("Colour shape");
-
-                root.getChildren().addAll(colourLabel, colourField, colourButton);
-
+                root.getChildren().addAll(colourLabel, currentSides, incrementButton, decrementButton);
+                
                 // colour shape
-                colourButton.setOnAction(e1 -> {
-                    if (colourField.getText().equals("blue")) {
-                    	square.setFill(Color.BLUE);
-                    } else if (colourField.getText().equals("green")) {
-                    	square.setFill(Color.GREEN);
-                    } else if (colourField.getText().equals("yellow")) {
-                    	square.setFill(Color.YELLOW);
-                    } else {
-                        Alert errorAlert = new Alert(AlertType.ERROR);
-                        errorAlert.setHeaderText("Invalid colour.");
-                        errorAlert.setContentText("Please try blue, green, or yellow.");
-                        errorAlert.showAndWait();
-                    }
-                });
+                incrementButton.setOnAction(e1 -> {
+                	if (shapesNumber[0] < 8 ) {
+                		shapesNumber[0]++;
+                		currentSides.setText("current sides : " + shapesNumber[0]);
+                }});
+                
+                decrementButton.setOnAction(e1 -> {
+                	if (shapesNumber[0] > 4 ) {
+                		shapesNumber[0]--;
+                		currentSides.setText("current sides : " + shapesNumber[0]);
+                }});
              
-             
-             
-        		} else if (shapeField.getText().equals("5")) {
+        		} else if (shapeNumber == 5) {
         			// case if side = 5
         			Polygon pentagon = new Polygon();
         			pentagon.getPoints().addAll(new Double[] {
@@ -105,7 +109,7 @@ public class AssignmentShapes extends Application {
                 			180.0, 70.0, 
                 			240.0, 120.0, 
                 			240.0, 200.0});
-                	pentagon.setFill(Color.RED);
+                	pentagon.setFill(Color.GREEN);
 
                     // display pentagon
                     root.getChildren().add(pentagon);
@@ -145,7 +149,7 @@ public class AssignmentShapes extends Application {
                         }
 
                     });
-                } else if (shapeField.getText().equals("6")) {
+                } else if (shapeNumber == 6) {
                 	// case if side = 6
                 	Polygon hexagon = new Polygon();
                 	hexagon.getPoints().addAll(new Double[] {200.0, 50.0,400.0, 50.0,450.0, 150.0,400.0, 250.0,200.0, 250.0,150.0, 150.0});
@@ -189,11 +193,10 @@ public class AssignmentShapes extends Application {
                 	});
 
                 
-                } else if (shapeField.getText().equals("7")) {
+                } else if (shapeNumber == 7) {
     			// case if side = 7
                 	Polygon heptagon = new Polygon();
                 	heptagon.getPoints().addAll(new Double[] {
-                			
                 			300.0, 25.0, 
                 			400.0, 100.0, 
                 			400.0, 200.0, 
@@ -242,7 +245,7 @@ public class AssignmentShapes extends Application {
                         }
                     });
 
-                } else if (shapeField.getText().equals("8")) {
+                } else if (shapeFieldNumber == 8) {
                 // case if side = 8
                 	Polygon octagon = new Polygon();
                 	octagon.getPoints().addAll(new Double[]{
@@ -290,7 +293,7 @@ public class AssignmentShapes extends Application {
                         octagon.setFill(Color.YELLOW);
                 		} else {
                         Alert errorAlert = new Alert(AlertType.ERROR);
-                        errorAlert.setHeaderText("Invalid colour.");
+                        errorAlert.setHeaderText("Invalid number.");
                         errorAlert.setContentText("Please try blue, green, or yellow.");
                         errorAlert.showAndWait();
                     }
@@ -305,6 +308,4 @@ public class AssignmentShapes extends Application {
         });
 
     }
-
-   
 }
