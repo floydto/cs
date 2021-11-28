@@ -20,7 +20,6 @@ public class AssignmentShapes extends Application {
 		// text field is created
 		TextField shapeField = new TextField();
 		shapeField.setMaxWidth(200);
-		
 
 		// add shape number label
 		Label shapeLabel = new Label("Enter the number of sides of the shape");
@@ -95,12 +94,19 @@ public class AssignmentShapes extends Application {
 				100.0, 50.0
 		});
 		octagon.setFill(Color.YELLOW);
-
+		
 		//set condition for different shapes
 		shapeButton.setOnAction(e -> {
+			if (shapeField.getText().isEmpty() == true) {
+				Alert errorAlert = new Alert(AlertType.ERROR);
+				errorAlert.setHeaderText("Invalid shape");
+				errorAlert.setContentText("Please try number 4-8.");
+				errorAlert.showAndWait();
+			} else {
+			
 			int shapeFieldNumber = Integer.parseInt(shapeField.getText());
 			int shapeNumber = shapeFieldNumber;
-
+			
 			// case if side = 4
 			if (shapeNumber == 4) {
 				int[] shapesNumber = {shapeFieldNumber};
@@ -125,7 +131,7 @@ public class AssignmentShapes extends Application {
 				//add all elements including the shape
 				root.getChildren().addAll(colourLabel, currentSides, incrementButton, decrementButton, square);
 
-				// colour shape
+				//add button to handle action
 				incrementButton.setOnAction(e1 -> {
 					if (shapesNumber[0] < 8 ) {
 						shapesNumber[0]++;
@@ -153,6 +159,7 @@ public class AssignmentShapes extends Application {
 						errorAlert.showAndWait();
 					}});
 
+				//add button to handle action
 				decrementButton.setOnAction(e1 -> {
 					if (shapesNumber[0] > 4 ) {
 						shapesNumber[0]--;
@@ -206,7 +213,7 @@ public class AssignmentShapes extends Application {
 				//add all elements including the shape
 				root.getChildren().addAll(colourLabel, currentSides, incrementButton, decrementButton, pentagon);
 
-				// colour shape
+				//add button to handle action
 				incrementButton.setOnAction(e1 -> {
 					if (shapesNumber[0] < 8 ) {
 						shapesNumber[0]++;
@@ -234,6 +241,7 @@ public class AssignmentShapes extends Application {
 						errorAlert.showAndWait();
 					}});
 
+				//add button to handle action
 				decrementButton.setOnAction(e1 -> {
 					if (shapesNumber[0] > 4 ) {
 						shapesNumber[0]--;
@@ -287,7 +295,7 @@ public class AssignmentShapes extends Application {
 				//add all elements including the shape
 				root.getChildren().addAll(colourLabel, currentSides, incrementButton, decrementButton, hexagon);
 
-				// colour shape
+				//add button to handle action
 				incrementButton.setOnAction(e1 -> {
 					if (shapesNumber[0] < 8 ) {
 						shapesNumber[0]++;
@@ -315,6 +323,7 @@ public class AssignmentShapes extends Application {
 						errorAlert.showAndWait();
 					}});
 
+				//add button to handle action
 				decrementButton.setOnAction(e1 -> {
 					if (shapesNumber[0] > 4 ) {
 						shapesNumber[0]--;
@@ -368,7 +377,7 @@ public class AssignmentShapes extends Application {
 				//add all elements including the shape
 				root.getChildren().addAll(colourLabel, currentSides, incrementButton, decrementButton, heptagon);
 
-				// colour shape
+				//add button to handle action
 				incrementButton.setOnAction(e1 -> {
 					if (shapesNumber[0] < 8 ) {
 						shapesNumber[0]++;
@@ -396,6 +405,7 @@ public class AssignmentShapes extends Application {
 						errorAlert.showAndWait();
 					}});
 
+				//add button to handle action
 				decrementButton.setOnAction(e1 -> {
 					if (shapesNumber[0] > 4 ) {
 						shapesNumber[0]--;
@@ -424,6 +434,7 @@ public class AssignmentShapes extends Application {
 						errorAlert.showAndWait();
 					}
 				});
+				
 				// case if side = 8
 			} else if (shapeFieldNumber == 8) {
 				int[] shapesNumber = {shapeFieldNumber};
@@ -448,7 +459,7 @@ public class AssignmentShapes extends Application {
 				//add all elements including the shape
 				root.getChildren().addAll(colourLabel, currentSides, incrementButton, decrementButton, octagon);
 
-				// colour shape
+				//add button to handle action
 				incrementButton.setOnAction(e1 -> {
 					if (shapesNumber[0] < 8 ) {
 						shapesNumber[0]++;
@@ -476,6 +487,7 @@ public class AssignmentShapes extends Application {
 						errorAlert.showAndWait();
 					}});
 
+				//add button to handle action
 				decrementButton.setOnAction(e1 -> {
 					if (shapesNumber[0] > 4 ) {
 						shapesNumber[0]--;
@@ -504,19 +516,15 @@ public class AssignmentShapes extends Application {
 						errorAlert.showAndWait();
 					}
 				});
-			} else if (shapeField==null) {
-				Alert errorAlert = new Alert(AlertType.ERROR);
-				errorAlert.setHeaderText("Invalid shape");
-				errorAlert.setContentText("Please try number 4-8.");
-				errorAlert.showAndWait();
+				//add error box 
 			} else {
 				Alert errorAlert = new Alert(AlertType.ERROR);
 				errorAlert.setHeaderText("Invalid shape");
 				errorAlert.setContentText("Please try number 4-8.");
 				errorAlert.showAndWait();
-			}
-		});
-	}
+				}
+			}});
+		}
 	
 	public static void main(String[] args) {
 		launch(args);
