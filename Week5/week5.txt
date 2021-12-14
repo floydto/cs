@@ -1,0 +1,11 @@
+# merge sort
+
+```
+MERGE-SORT(A,p,r)
+if p<r
+    q = [(p+r)/2]
+    MERGE-SORT(A,p,r)
+    MERGE-SORT(A,q+1,r)
+    MERGE(A,p,q,r)
+```
+
