@@ -1,0 +1,105 @@
+{
+  "main": {
+    "id": "2c79480a925ed58f",
+    "type": "split",
+    "children": [
+      {
+        "id": "1fd7ce761d9f862d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Week4 /week4.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "492e254dcd8e526c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Week4 /week4.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0516c100f8faa0df",
+    "type": "split",
+    "children": [
+      {
+        "id": "ffdb0e825b5e2653",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d20aba56635b040f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d17ccf8acb1c7ade",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "981dbf13138c6980",
+    "type": "split",
+    "children": [
+      {
+        "id": "279a334071de4252",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54e85060966fb96c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Week4 /week4.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1fd7ce761d9f862d",
+  "lastOpenFiles": [
+    "Week4 /week4.md",
+    "Week4 /exercises.md"
+  ]
+}
