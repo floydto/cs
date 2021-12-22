@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # merge sort
 
 ```
@@ -8,4 +9,13 @@ if p<r
     MERGE-SORT(A,q+1,r)
     MERGE(A,p,q,r)
 ```
+=======
+# Insertion sort
+
+# Stacks
+
+# queues
+
+# Linked list
+>>>>>>> Stashed changes
 
