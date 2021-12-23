@@ -1,5 +1,5 @@
 # Insertion sort
-
+  this is how insertion sort
 
 
 # Stacks
@@ -13,4 +13,4 @@
 # Linked list
 
 
-
+[[week5]]

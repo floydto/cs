@@ -1,5 +1,8 @@
+
 # week 4
 
+[[week4]]
+[[instruction]]
 big-o = give upper bound, which means to find the time complexity upper bound = worst case. <br>
 big omega Ω = lower bound.<br>
 big theta θ = upper bound and lower bound.<br>

@@ -1,3 +1,5 @@
 {
-  "communityThemeSortOrder": "download"
+  "communityThemeSortOrder": "download",
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
 }
