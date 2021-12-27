@@ -35,7 +35,8 @@
   "app:delete-file": [
     {
       "modifiers": [
-        "Mod"
+        "Mod",
+        "Shift"
       ],
       "key": "Backspace"
     }
